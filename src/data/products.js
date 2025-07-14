@@ -1,7 +1,6 @@
 import {CATEGORY, TYPE} from "../utils/enums.js";
 
 export const ALL_PRODUCTS = [
-    // MEN
     {
         id: 'prod-001',
         name: 'Classic White T-Shirt',
@@ -12,7 +11,7 @@ export const ALL_PRODUCTS = [
         price: 25.00,
         oldPrice: null,
         brand: 'Zara',
-        image: 'https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80', // t-shirt
+        image: 'https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80',
         tags: []
     },
     {
@@ -25,7 +24,7 @@ export const ALL_PRODUCTS = [
         price: 85.00,
         oldPrice: 100.00,
         brand: 'Nike',
-        image: 'https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=600&q=80', // men's running shoes
+        image: 'https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=600&q=80',
         tags: []
     },
     {
@@ -38,10 +37,9 @@ export const ALL_PRODUCTS = [
         price: 120.00,
         oldPrice: null,
         brand: 'Gucci',
-        image: 'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=600&q=80', // men's bag
+        image: 'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=600&q=80',
         tags: []
     },
-    // WOMEN
     {
         id: 'prod-004',
         name: 'Floral Summer Dress',
@@ -52,7 +50,7 @@ export const ALL_PRODUCTS = [
         price: 65.00,
         oldPrice: null,
         brand: 'H&M',
-        image: 'https://images.unsplash.com/photo-1469398715555-76331a6c7c9b?auto=format&fit=crop&w=600&q=80', // dress
+        image: 'https://images.unsplash.com/photo-1469398715555-76331a6c7c9b?auto=format&fit=crop&w=600&q=80',
         tags: []
     },
     {
@@ -65,7 +63,7 @@ export const ALL_PRODUCTS = [
         price: 40.00,
         oldPrice: 60.00,
         brand: 'Gucci',
-        image: 'https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80', // scarf
+        image: 'https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80',
         tags: []
     },
     {
@@ -78,10 +76,9 @@ export const ALL_PRODUCTS = [
         price: 90.00,
         oldPrice: 120.00,
         brand: 'Adidas',
-        image: 'https://images.unsplash.com/photo-1517260911205-8c6f6fa1b8e7?auto=format&fit=crop&w=600&q=80', // women's sneakers
+        image: 'https://images.unsplash.com/photo-1517260911205-8c6f6fa1b8e7?auto=format&fit=crop&w=600&q=80',
         tags: []
     },
-    // KIDS
     {
         id: 'prod-007',
         name: 'Kids Dino Sneakers',
@@ -92,7 +89,7 @@ export const ALL_PRODUCTS = [
         price: 30.00,
         oldPrice: 45.00,
         brand: 'Puma',
-        image: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80', // kids' shoes
+        image: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80',
         tags: []
     },
     {
@@ -105,7 +102,7 @@ export const ALL_PRODUCTS = [
         price: 35.00,
         oldPrice: null,
         brand: 'Disney',
-        image: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80', // kids' backpack
+        image: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80',
         tags: []
     },
     {
@@ -118,7 +115,7 @@ export const ALL_PRODUCTS = [
         price: 70.00,
         oldPrice: null,
         brand: 'Zara Kids',
-        image: 'https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=600&q=80', // kids' jacket
+        image: 'https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=600&q=80',
         tags: []
     },
     {
@@ -131,10 +128,9 @@ export const ALL_PRODUCTS = [
         price: 28.00,
         oldPrice: null,
         brand: 'Hunter',
-        image: 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80', // kids' boots
+        image: 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80',
         tags: []
     },
-    // More for coverage
     {
         id: 'prod-011',
         name: 'Men’s Slim Jeans',
@@ -145,7 +141,7 @@ export const ALL_PRODUCTS = [
         price: 60.00,
         oldPrice: 80.00,
         brand: 'Levi’s',
-        image: 'https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80', // jeans
+        image: 'https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80',
         tags: []
     },
     {
@@ -158,7 +154,7 @@ export const ALL_PRODUCTS = [
         price: 150.00,
         oldPrice: null,
         brand: 'Michael Kors',
-        image: 'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=600&q=80', // women's bag
+        image: 'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=600&q=80',
         tags: []
     },
     {
@@ -171,7 +167,7 @@ export const ALL_PRODUCTS = [
         price: 18.00,
         oldPrice: 25.00,
         brand: 'H&M Kids',
-        image: 'https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80', // kids' t-shirt
+        image: 'https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80',
         tags: []
     },
     {
@@ -184,7 +180,7 @@ export const ALL_PRODUCTS = [
         price: 35.00,
         oldPrice: 50.00,
         brand: 'Tommy Hilfiger',
-        image: 'https://images.unsplash.com/photo-1469398715555-76331a6c7c9b?auto=format&fit=crop&w=600&q=80', // belt
+        image: 'https://images.unsplash.com/photo-1469398715555-76331a6c7c9b?auto=format&fit=crop&w=600&q=80',
         tags: []
     },
     {
@@ -197,7 +193,7 @@ export const ALL_PRODUCTS = [
         price: 110.00,
         oldPrice: 140.00,
         brand: 'Nike',
-        image: 'https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=600&q=80', // women's running shoes
+        image: 'https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=600&q=80',
         tags: []
     },
     {
@@ -210,7 +206,7 @@ export const ALL_PRODUCTS = [
         price: 15.00,
         oldPrice: 20.00,
         brand: 'Puma',
-        image: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80', // kids' cap
+        image: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80',
         tags: []
     },
 ];
