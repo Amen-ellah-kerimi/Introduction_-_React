@@ -1,16 +1,20 @@
+import logo from "../assets/icons/logo.svg";
 function Logo(){
-    const imgSrc="../assets/logo.png";
+    const icon = "w-20 h-20 mr-1";
     return(
         <div
-            className=""
+            className="flex items-center ml-0"
             >
-                <img src={imgSrc} className=""/>
-                <h1 className="font-bold text-black font-display">
+                <img src={logo} className={icon}/>
+
+                <div>
+                    <h1 className="font-bold text-gray-900 leading-none text-1xl">
                     Amen&Louay
-                </h1>
-                <h1>
-                    FASHION
-                </h1>
+                    </h1>
+                    <h1 className="text-xs tracking-widest uppercase text-gray-700 mt-0.5 ">
+                        FASHION
+                    </h1>
+                </div>
         </div>
     );
 }

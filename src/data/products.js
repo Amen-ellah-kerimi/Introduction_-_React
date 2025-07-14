@@ -1,0 +1,216 @@
+import {CATEGORY, TYPE} from "../utils/enums.js";
+
+export const ALL_PRODUCTS = [
+    // MEN
+    {
+        id: 'prod-001',
+        name: 'Classic White T-Shirt',
+        category: CATEGORY.MEN,
+        type: TYPE.CLOTHING,
+        isNew: false,
+        isSale: false,
+        price: 25.00,
+        oldPrice: null,
+        brand: 'Zara',
+        image: 'https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80', // t-shirt
+        tags: []
+    },
+    {
+        id: 'prod-002',
+        name: 'Sporty Running Shoes',
+        category: CATEGORY.MEN,
+        type: TYPE.SHOES,
+        isNew: false,
+        isSale: true,
+        price: 85.00,
+        oldPrice: 100.00,
+        brand: 'Nike',
+        image: 'https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=600&q=80', // men's running shoes
+        tags: []
+    },
+    {
+        id: 'prod-003',
+        name: 'Leather Messenger Bag',
+        category: CATEGORY.MEN,
+        type: TYPE.ACCESSORIES,
+        isNew: true,
+        isSale: false,
+        price: 120.00,
+        oldPrice: null,
+        brand: 'Gucci',
+        image: 'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=600&q=80', // men's bag
+        tags: []
+    },
+    // WOMEN
+    {
+        id: 'prod-004',
+        name: 'Floral Summer Dress',
+        category: CATEGORY.WOMEN,
+        type: TYPE.CLOTHING,
+        isNew: true,
+        isSale: false,
+        price: 65.00,
+        oldPrice: null,
+        brand: 'H&M',
+        image: 'https://images.unsplash.com/photo-1469398715555-76331a6c7c9b?auto=format&fit=crop&w=600&q=80', // dress
+        tags: []
+    },
+    {
+        id: 'prod-005',
+        name: 'Premium Silk Scarf',
+        category: CATEGORY.WOMEN,
+        type: TYPE.ACCESSORIES,
+        isNew: false,
+        isSale: true,
+        price: 40.00,
+        oldPrice: 60.00,
+        brand: 'Gucci',
+        image: 'https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80', // scarf
+        tags: []
+    },
+    {
+        id: 'prod-006',
+        name: 'Chunky Sneakers',
+        category: CATEGORY.WOMEN,
+        type: TYPE.SHOES,
+        isNew: true,
+        isSale: true,
+        price: 90.00,
+        oldPrice: 120.00,
+        brand: 'Adidas',
+        image: 'https://images.unsplash.com/photo-1517260911205-8c6f6fa1b8e7?auto=format&fit=crop&w=600&q=80', // women's sneakers
+        tags: []
+    },
+    // KIDS
+    {
+        id: 'prod-007',
+        name: 'Kids Dino Sneakers',
+        category: CATEGORY.KIDS,
+        type: TYPE.SHOES,
+        isNew: false,
+        isSale: true,
+        price: 30.00,
+        oldPrice: 45.00,
+        brand: 'Puma',
+        image: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80', // kids' shoes
+        tags: []
+    },
+    {
+        id: 'prod-008',
+        name: 'Unicorn Backpack',
+        category: CATEGORY.KIDS,
+        type: TYPE.ACCESSORIES,
+        isNew: true,
+        isSale: false,
+        price: 35.00,
+        oldPrice: null,
+        brand: 'Disney',
+        image: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80', // kids' backpack
+        tags: []
+    },
+    {
+        id: 'prod-009',
+        name: 'Kids Winter Jacket',
+        category: CATEGORY.KIDS,
+        type: TYPE.CLOTHING,
+        isNew: true,
+        isSale: false,
+        price: 70.00,
+        oldPrice: null,
+        brand: 'Zara Kids',
+        image: 'https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=600&q=80', // kids' jacket
+        tags: []
+    },
+    {
+        id: 'prod-010',
+        name: 'Kids Rain Boots',
+        category: CATEGORY.KIDS,
+        type: TYPE.SHOES,
+        isNew: true,
+        isSale: false,
+        price: 28.00,
+        oldPrice: null,
+        brand: 'Hunter',
+        image: 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80', // kids' boots
+        tags: []
+    },
+    // More for coverage
+    {
+        id: 'prod-011',
+        name: 'Men’s Slim Jeans',
+        category: CATEGORY.MEN,
+        type: TYPE.CLOTHING,
+        isNew: true,
+        isSale: true,
+        price: 60.00,
+        oldPrice: 80.00,
+        brand: 'Levi’s',
+        image: 'https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80', // jeans
+        tags: []
+    },
+    {
+        id: 'prod-012',
+        name: 'Women’s Leather Tote',
+        category: CATEGORY.WOMEN,
+        type: TYPE.ACCESSORIES,
+        isNew: true,
+        isSale: false,
+        price: 150.00,
+        oldPrice: null,
+        brand: 'Michael Kors',
+        image: 'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=600&q=80', // women's bag
+        tags: []
+    },
+    {
+        id: 'prod-013',
+        name: 'Kids Graphic Tee',
+        category: CATEGORY.KIDS,
+        type: TYPE.CLOTHING,
+        isNew: false,
+        isSale: true,
+        price: 18.00,
+        oldPrice: 25.00,
+        brand: 'H&M Kids',
+        image: 'https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80', // kids' t-shirt
+        tags: []
+    },
+    {
+        id: 'prod-014',
+        name: 'Men’s Leather Belt',
+        category: CATEGORY.MEN,
+        type: TYPE.ACCESSORIES,
+        isNew: false,
+        isSale: true,
+        price: 35.00,
+        oldPrice: 50.00,
+        brand: 'Tommy Hilfiger',
+        image: 'https://images.unsplash.com/photo-1469398715555-76331a6c7c9b?auto=format&fit=crop&w=600&q=80', // belt
+        tags: []
+    },
+    {
+        id: 'prod-015',
+        name: 'Women’s Running Shoes',
+        category: CATEGORY.WOMEN,
+        type: TYPE.SHOES,
+        isNew: false,
+        isSale: true,
+        price: 110.00,
+        oldPrice: 140.00,
+        brand: 'Nike',
+        image: 'https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=600&q=80', // women's running shoes
+        tags: []
+    },
+    {
+        id: 'prod-016',
+        name: 'Kids Baseball Cap',
+        category: CATEGORY.KIDS,
+        type: TYPE.ACCESSORIES,
+        isNew: false,
+        isSale: true,
+        price: 15.00,
+        oldPrice: 20.00,
+        brand: 'Puma',
+        image: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80', // kids' cap
+        tags: []
+    },
+];
